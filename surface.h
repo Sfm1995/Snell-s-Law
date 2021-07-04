@@ -8,7 +8,7 @@ private:
 	vector<double> p = { 0,0,0 };
 	vector<double> n = { 0,0,1 };
 	double n_water = 1.3330;
-	double n_ice = 1.306;
+	double n_ice = 1.3;
 	double n_air = 1;
 	double n_metal = 0.05;
 	double n_1=1;
