@@ -1,4 +1,7 @@
 # Snell-s-Law
+
+from github matplotlib-cpp https://github.com/lava/matplotlib-cpp#readme to get image;
+
 situation：
 1.normal
 
