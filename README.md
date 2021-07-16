@@ -1,6 +1,6 @@
 # Snell-s-Law
 
-from github matplotlib-cpp https://github.com/lava/matplotlib-cpp#readme to get image;
+from github matplotlib-cpp https://github.com/lava/matplotlib-cpp#readme  (matolotlibcpp.h)to get image;
 
 situation：
 1.normal
