@@ -159,13 +159,13 @@ vector<double> get_mp_t_0(licht Licht, surface Surface) {
 	vector<double> v = Licht.get_v();
 	vector<double> s = Licht.get_s();
 	if (dot(n, v) == 0) {
-		mp_t_0 = { 0,0,0,0 };         //向量平行于平面的情况
+		mp_t_0 = { 0,0,0,0 };         
 	}
-	else if (dot(vect(s, p), n) == 0) {    //光源在平面上
+	else if (dot(vect(s, p), n) == 0) {    
 		mp_t_0 = { s[0],s[1],s[2],0 };
 
 	}
-	else {                            //正常的计算向量与平面的交点   具体情况我给你发图，平面的点法式计算中如果法向量为0有特殊情况
+	else {                           
 		t_0=-(n[0]*(s[0]-p[0])+n[1]*(s[1]-p[1])+n[2]*(s[2]-p[2]))/(n[0]*v[0]+n[1]*v[1]+n[2]*v[2]);
 		x=s[0]+v[0]*t_0;
 		y=s[1]+v[1]*t_0;
